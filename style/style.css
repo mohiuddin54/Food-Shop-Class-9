@@ -3,4 +3,29 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* <!-- Header style start here */
+.header-container{
+    background-color: green;
+    
+}
+.header-container nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto;
+}
+.logo i{
+    font-size: 25px;
+    color:#fff
+}
+.nav-menu a{
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
 }
