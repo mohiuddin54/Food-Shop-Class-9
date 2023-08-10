@@ -80,3 +80,32 @@ body{
     font-size: 10px;
 }
 /* Card style end here */
+
+/* Footer style start here */
+footer{
+    background-color: black;
+    
+    color: #fff;
+}
+.footer-box{
+    height: 150px;
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.footer-box div{
+    display: flex;
+    gap: 10px;
+}
+.footer-box a{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    padding: 15px;
+    border-radius: 50%;
+    display: center;
+    text-align: center;
+}
+/* Footer style end here */
