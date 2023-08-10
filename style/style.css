@@ -84,7 +84,7 @@ body{
 /* Footer style start here */
 footer{
     background-color: black;
-    
+    margin-top: 50px;
     color: #fff;
 }
 .footer-box{
